@@ -31,6 +31,13 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_compass: ^0.7.0
+  flutter_launcher_icons: "^0.11.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/compass2.png"
+  min_sdk_android: 21
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -62,6 +69,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/compass.png
+    - assets/compass2.png
     - assets/cadrant.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
